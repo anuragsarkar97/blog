@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build; COSMIC_BUCKET=27270080-9dcf-11ea-88f3-7553a5ad8c0c COSMIC_READ_KEY=bzIdHkMygIIOMKdqZ3wyYeH6Old1gULXt7xTcU9tDlRnynB7Wu NODE_ENV=production",
+    "start": "next build; COSMIC_BUCKET=27270080-9dcf-11ea-88f3-7553a5ad8c0c COSMIC_READ_KEY=bzIdHkMygIIOMKdqZ3wyYeH6Old1gULXt7xTcU9tDlRnynB7Wu NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.16.2",
+    "lodash": "^4.17.4",
+    "next": "^4.0.3",
+    "next-routes": "^1.1.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  }
+}
